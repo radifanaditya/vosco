@@ -1,0 +1,109 @@
+@font-face{
+	font-family: chunkfive-ex;
+	src: url("../fonts/CHUNKFIVE-EX.ttf");
+}
+
+@font-face{
+	font-family: bookos;
+	src: url("../fonts/BOOKOS.ttf");
+}
+
+p, .btn-default{
+	font-family: Arial;
+}
+
+.btn-default{
+	border: 3px solid #57585A;
+	color: #57585A;
+	font-weight: bold;
+}
+
+.btn-default:hover{
+	border: 3px solid #57585A;
+	color: #fff;
+	background-color: #57585A;
+}
+
+.title{
+	font-family: chunkfive-ex;
+	font-size: 16px;
+}
+
+.navbar-nav > li > a{
+	font-family: chunkfive-ex;
+	font-size: 18px;
+}
+
+.navbar-collapse{
+	padding: 15px 0px;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+.navbar-custom{
+	background-color: #221F1F;
+}
+
+.main-text{
+    position: absolute;
+    top: 180px;
+	width: 100%;
+}
+
+.main-text > .col-md-12 > img{
+	height: 400px;
+} 
+
+#coffee{
+	padding-top: 170px;
+}
+
+#coffee > .download-section > .container{
+	width: 100%;
+}
+
+.sub-coffee > .btn{
+	font-size: 20px;
+	padding: 12px 22px;
+}
+
+@media (max-width: 991px) {
+	.navbar-header{
+		margin-bottom: 20px;
+	}
+	
+	.navbar-nav > li > a{
+		font-size: 16px;
+	}
+	
+	.navbar-brand > img{
+		padding-left: 20px;
+	}
+	
+	.navbar-custom{
+		padding-bottom: 10px;
+	}
+	
+	.title{
+		margin-top: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-header{
+		margin-bottom: 12px;
+	}
+	
+	.main-text > .col-md-12 > img{
+		height: 80%;
+		width: 80%;
+	} 
+}
