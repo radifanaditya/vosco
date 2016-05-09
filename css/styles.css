@@ -12,20 +12,23 @@ p, .btn-default{
 	font-family: Arial;
 }
 
+.title, .brothers-brand{
+	font-family: chunkfive-ex;
+}
+
 .btn-default{
 	border: 3px solid #57585A;
 	color: #57585A;
 	font-weight: bold;
 }
 
-.btn-default:hover{
+.btn-default:hover, .btn-default:focus{
 	border: 3px solid #57585A;
 	color: #fff;
 	background-color: #57585A;
 }
 
 .title{
-	font-family: chunkfive-ex;
 	font-size: 16px;
 }
 
@@ -58,9 +61,33 @@ p, .btn-default{
 	width: 100%;
 }
 
-.main-text > .col-md-12 > img{
-	height: 400px;
+.main-text > .col-md-12 > .header{
+	margin-bottom: 45px;
+}
+
+.main-text > .col-md-12 > .header > img{
+	width: 350px;
 } 
+
+.main-text > .col-md-12 > .content{
+	width: 650px;
+	margin: 0 auto;
+	margin-bottom: 85px;
+}
+
+.main-text > .col-md-12 > .content > p{
+	line-height: 125%;
+	font-size: 21px;
+}
+
+.main-text > .col-md-12 > .bottom > p{
+	font-size: 12px;
+}
+
+.main-text > .col-md-12 > .bottom > img{
+	width: 650px;
+	margin-top: 40px;
+}
 
 #coffee{
 	padding-top: 170px;
@@ -71,8 +98,34 @@ p, .btn-default{
 }
 
 .sub-coffee > .btn{
-	font-size: 20px;
-	padding: 12px 22px;
+	font-size: 16px;
+	padding: 8px 20px;
+}
+
+.carousel-control {
+	opacity:0;
+    width: 7%;
+}
+
+.thumbnail{
+	padding:0 0 0 0;
+}
+
+.carousel-indicators{
+	visibility:hidden;
+}
+
+.item_box{
+    height:500px;
+}
+ 
+.photo-thumb{
+    width:100%;
+    height:auto;
+    float:left; 
+    border: thin solid #d1d1d1;
+    margin:0 1em .5em 0;
+    float:left; 
 }
 
 @media (max-width: 991px) {
@@ -82,6 +135,10 @@ p, .btn-default{
 	
 	.navbar-nav > li > a{
 		font-size: 16px;
+	}
+	
+	.navbar-brand{
+		margin-left: 71% !important;
 	}
 	
 	.navbar-brand > img{
@@ -102,8 +159,28 @@ p, .btn-default{
 		margin-bottom: 12px;
 	}
 	
+	.navbar-brand{
+		margin-left: 0 !important;
+	}
+	
 	.main-text > .col-md-12 > img{
 		height: 80%;
 		width: 80%;
-	} 
+	}
+
+	.main-text > .col-md-12 > .header > img{
+		width: 50%;
+	}
+	
+	.main-text > .col-md-12 > .content{
+		width: 95%;
+	}
+	
+	.main-text > .col-md-12 > .content > p{
+		font-size: 18px;
+	}
+	
+	.main-text > .col-md-12 > .bottom > img{
+		width: 80%;
+	}
 }
